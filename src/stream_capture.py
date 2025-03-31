@@ -1845,8 +1845,8 @@ class DatabaseManager:
 class EmailVerification:
     def __init__(self, db=None):
         # QQ邮箱配置
-        self.sender = '3409266604@qq.com'
-        self.password = 'kogacwcucjsqcjcd'
+        self.sender = ''
+        self.password = ''
         self.smtp_server = 'smtp.qq.com'
         self.smtp_port = 465
         
